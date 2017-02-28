@@ -17,6 +17,14 @@
 		FD94DF581E64FDC600784AF8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD94DF571E64FDC600784AF8 /* FBSDKLoginKit.framework */; };
 		FD94DF5A1E650C8A00784AF8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD94DF591E650C8A00784AF8 /* Bolts.framework */; };
 		FD94DF5C1E650C9A00784AF8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD94DF5B1E650C9A00784AF8 /* FBSDKCoreKit.framework */; };
+		FD94DF661E65156700784AF8 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF621E65156700784AF8 /* NotoSans-Bold.ttf */; };
+		FD94DF671E65156700784AF8 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF631E65156700784AF8 /* NotoSans-BoldItalic.ttf */; };
+		FD94DF681E65156700784AF8 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF641E65156700784AF8 /* NotoSans-Italic.ttf */; };
+		FD94DF691E65156700784AF8 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF651E65156700784AF8 /* NotoSans-Regular.ttf */; };
+		FD94DF6B1E65158200784AF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DF6A1E65158200784AF8 /* Constants.swift */; };
+		FD94DF6F1E65159A00784AF8 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DF6C1E65159A00784AF8 /* MaterialView.swift */; };
+		FD94DF701E65159A00784AF8 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DF6D1E65159A00784AF8 /* MaterialButton.swift */; };
+		FD94DF711E65159A00784AF8 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DF6E1E65159A00784AF8 /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,14 @@
 		FD94DF571E64FDC600784AF8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FD94DF591E650C8A00784AF8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		FD94DF5B1E650C9A00784AF8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FD94DF621E65156700784AF8 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		FD94DF631E65156700784AF8 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FD94DF641E65156700784AF8 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		FD94DF651E65156700784AF8 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		FD94DF6A1E65158200784AF8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FD94DF6C1E65159A00784AF8 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		FD94DF6D1E65159A00784AF8 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		FD94DF6E1E65159A00784AF8 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		FFE1518A196815FA791894F4 /* Pods-displaycase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-displaycase.release.xcconfig"; path = "Pods/Target Support Files/Pods-displaycase/Pods-displaycase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +108,12 @@
 		FD94DF421E64F9EF00784AF8 /* displaycase */ = {
 			isa = PBXGroup;
 			children = (
+				FD94DF611E65135300784AF8 /* Resources */,
+				FD94DF601E65133100784AF8 /* Util */,
+				FD94DF5F1E65132A00784AF8 /* Controller */,
+				FD94DF5E1E65132400784AF8 /* View */,
+				FD94DF5D1E65131D00784AF8 /* Model */,
 				FD94DF431E64F9F000784AF8 /* AppDelegate.swift */,
-				FD94DF451E64F9F000784AF8 /* ViewController.swift */,
 				FD94DF471E64F9F000784AF8 /* Main.storyboard */,
 				FD94DF4A1E64F9F000784AF8 /* Assets.xcassets */,
 				FD94DF4C1E64F9F000784AF8 /* LaunchScreen.storyboard */,
@@ -101,6 +121,50 @@
 				FD94DF551E64FAAB00784AF8 /* GoogleService-Info.plist */,
 			);
 			path = displaycase;
+			sourceTree = "<group>";
+		};
+		FD94DF5D1E65131D00784AF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD94DF5E1E65132400784AF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD94DF6C1E65159A00784AF8 /* MaterialView.swift */,
+				FD94DF6D1E65159A00784AF8 /* MaterialButton.swift */,
+				FD94DF6E1E65159A00784AF8 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FD94DF5F1E65132A00784AF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD94DF451E64F9F000784AF8 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FD94DF601E65133100784AF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FD94DF6A1E65158200784AF8 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		FD94DF611E65135300784AF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD94DF621E65156700784AF8 /* NotoSans-Bold.ttf */,
+				FD94DF631E65156700784AF8 /* NotoSans-BoldItalic.ttf */,
+				FD94DF641E65156700784AF8 /* NotoSans-Italic.ttf */,
+				FD94DF651E65156700784AF8 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +230,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD94DF671E65156700784AF8 /* NotoSans-BoldItalic.ttf in Resources */,
 				FD94DF4E1E64F9F000784AF8 /* LaunchScreen.storyboard in Resources */,
 				FD94DF561E64FAAB00784AF8 /* GoogleService-Info.plist in Resources */,
 				FD94DF4B1E64F9F000784AF8 /* Assets.xcassets in Resources */,
+				FD94DF691E65156700784AF8 /* NotoSans-Regular.ttf in Resources */,
+				FD94DF681E65156700784AF8 /* NotoSans-Italic.ttf in Resources */,
+				FD94DF661E65156700784AF8 /* NotoSans-Bold.ttf in Resources */,
 				FD94DF491E64F9F000784AF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD94DF711E65159A00784AF8 /* MaterialTextField.swift in Sources */,
 				FD94DF461E64F9F000784AF8 /* ViewController.swift in Sources */,
 				FD94DF441E64F9F000784AF8 /* AppDelegate.swift in Sources */,
+				FD94DF6B1E65158200784AF8 /* Constants.swift in Sources */,
+				FD94DF6F1E65159A00784AF8 /* MaterialView.swift in Sources */,
+				FD94DF701E65159A00784AF8 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
