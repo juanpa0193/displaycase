@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B74D1E5ABEDCEA2D04A3C826 /* Pods_displaycase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EE3FF7BE62BC38BC4B428E /* Pods_displaycase.framework */; };
 		FD94DF441E64F9F000784AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DF431E64F9F000784AF8 /* AppDelegate.swift */; };
 		FD94DF461E64F9F000784AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94DF451E64F9F000784AF8 /* ViewController.swift */; };
 		FD94DF491E64F9F000784AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF471E64F9F000784AF8 /* Main.storyboard */; };
 		FD94DF4B1E64F9F000784AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF4A1E64F9F000784AF8 /* Assets.xcassets */; };
 		FD94DF4E1E64F9F000784AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF4C1E64F9F000784AF8 /* LaunchScreen.storyboard */; };
+		FD94DF561E64FAAB00784AF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD94DF551E64FAAB00784AF8 /* GoogleService-Info.plist */; };
+		FD94DF581E64FDC600784AF8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD94DF571E64FDC600784AF8 /* FBSDKLoginKit.framework */; };
+		FD94DF5A1E650C8A00784AF8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD94DF591E650C8A00784AF8 /* Bolts.framework */; };
+		FD94DF5C1E650C9A00784AF8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD94DF5B1E650C9A00784AF8 /* FBSDKCoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67B9AB339B78D22DCC16E78F /* Pods-displaycase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-displaycase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-displaycase/Pods-displaycase.debug.xcconfig"; sourceTree = "<group>"; };
+		E9EE3FF7BE62BC38BC4B428E /* Pods_displaycase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_displaycase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD94DF401E64F9EF00784AF8 /* displaycase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = displaycase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD94DF431E64F9F000784AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD94DF451E64F9F000784AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		FD94DF4A1E64F9F000784AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD94DF4D1E64F9F000784AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD94DF4F1E64F9F000784AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD94DF551E64FAAB00784AF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD94DF571E64FDC600784AF8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FD94DF591E650C8A00784AF8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FD94DF5B1E650C9A00784AF8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FFE1518A196815FA791894F4 /* Pods-displaycase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-displaycase.release.xcconfig"; path = "Pods/Target Support Files/Pods-displaycase/Pods-displaycase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD94DF5A1E650C8A00784AF8 /* Bolts.framework in Frameworks */,
+				FD94DF5C1E650C9A00784AF8 /* FBSDKCoreKit.framework in Frameworks */,
+				FD94DF581E64FDC600784AF8 /* FBSDKLoginKit.framework in Frameworks */,
+				B74D1E5ABEDCEA2D04A3C826 /* Pods_displaycase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C839778470F56819FE8A44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B9AB339B78D22DCC16E78F /* Pods-displaycase.debug.xcconfig */,
+				FFE1518A196815FA791894F4 /* Pods-displaycase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD91DCB0C51E6AF9AFF293F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD94DF5B1E650C9A00784AF8 /* FBSDKCoreKit.framework */,
+				FD94DF591E650C8A00784AF8 /* Bolts.framework */,
+				FD94DF571E64FDC600784AF8 /* FBSDKLoginKit.framework */,
+				E9EE3FF7BE62BC38BC4B428E /* Pods_displaycase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD94DF371E64F9E900784AF8 = {
 			isa = PBXGroup;
 			children = (
 				FD94DF421E64F9EF00784AF8 /* displaycase */,
 				FD94DF411E64F9EF00784AF8 /* Products */,
+				0C839778470F56819FE8A44A /* Pods */,
+				CD91DCB0C51E6AF9AFF293F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +98,7 @@
 				FD94DF4A1E64F9F000784AF8 /* Assets.xcassets */,
 				FD94DF4C1E64F9F000784AF8 /* LaunchScreen.storyboard */,
 				FD94DF4F1E64F9F000784AF8 /* Info.plist */,
+				FD94DF551E64FAAB00784AF8 /* GoogleService-Info.plist */,
 			);
 			path = displaycase;
 			sourceTree = "<group>";
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD94DF521E64F9F000784AF8 /* Build configuration list for PBXNativeTarget "displaycase" */;
 			buildPhases = (
+				F62F35522E3FA8946DC5C0AA /* [CP] Check Pods Manifest.lock */,
 				FD94DF3C1E64F9E900784AF8 /* Sources */,
 				FD94DF3D1E64F9E900784AF8 /* Frameworks */,
 				FD94DF3E1E64F9E900784AF8 /* Resources */,
+				471EC6B30A21019671A42558 /* [CP] Embed Pods Frameworks */,
+				C30831646B89A8F38522F5FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +167,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD94DF4E1E64F9F000784AF8 /* LaunchScreen.storyboard in Resources */,
+				FD94DF561E64FAAB00784AF8 /* GoogleService-Info.plist in Resources */,
 				FD94DF4B1E64F9F000784AF8 /* Assets.xcassets in Resources */,
 				FD94DF491E64F9F000784AF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		471EC6B30A21019671A42558 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-displaycase/Pods-displaycase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30831646B89A8F38522F5FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-displaycase/Pods-displaycase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62F35522E3FA8946DC5C0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD94DF3C1E64F9E900784AF8 /* Sources */ = {
@@ -190,6 +281,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -240,6 +332,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -259,9 +352,14 @@
 		};
 		FD94DF531E64F9F000784AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B9AB339B78D22DCC16E78F /* Pods-displaycase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L989NBC27U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = displaycase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jptestings.displaycase;
@@ -272,9 +370,14 @@
 		};
 		FD94DF541E64F9F000784AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE1518A196815FA791894F4 /* Pods-displaycase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L989NBC27U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = displaycase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jptestings.displaycase;
@@ -302,6 +405,7 @@
 				FD94DF541E64F9F000784AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
