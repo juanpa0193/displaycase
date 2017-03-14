@@ -7,5 +7,7 @@ target 'displaycase' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Alamofire', '~> 4.4'
 
 end
